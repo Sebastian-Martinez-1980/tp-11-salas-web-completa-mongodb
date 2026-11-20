@@ -1,0 +1,11 @@
+<article class="detalle">
+    <p class="etiqueta"><%= reserva.sala %></p>
+    <h1><%= reserva.estudiante %></h1>
+    <p><strong>Email:</strong> <%= reserva.email %></p>
+    <p><strong>Fecha:</strong> <%= reserva.fecha %></p>
+    <p><strong>Turno:</strong> <%= reserva.turno %></p>
+    <p><strong>Personas:</strong> <%= reserva.personas %></p>
+    <p><strong>Estado:</strong> <%= reserva.estado %></p>
+    <p><a class="boton" href="/reservas/<%= reserva.id %>/editar">Editar reserva</a></p>
+    <a href="/reservas">Volver a las reservas</a>
+</article>
